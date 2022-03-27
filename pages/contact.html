@@ -1,0 +1,190 @@
+<!--Contact (page 5)-->
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<title>Algérie IoT</title>
+
+		<link rel="icon" href="../images/favicon.jpg" type="image/jpg">
+		<link rel="stylesheet" type="text/css" href="../style/style.css">	
+		<link rel="stylesheet" type="text/css" href="../style/impression.css" media="print">
+		<script>
+			function validateForm() {
+			  var x = document.forms["myForm"]["cf_name"].value;
+			  var y = document.forms["myForm"]["cf_email"].value;
+			  var z = document.forms["myForm"]["cf_message"].value;
+			  if (x == "" || x == null) {
+				alert("Merci de remplir votre Nom");
+				return false;
+			  }
+
+			  if (y == "" || x == null) {
+				alert("Merci de remplir votre E-mail");
+				return false;
+			  }
+
+			  if (z == "" || z == null) {
+				alert("Merci de nous ecrire votre message ");
+				return false;
+			  }
+			}
+		</script>
+	</head>
+	<body>
+		<!-- Entête de la page -->
+		<header>
+			<!-- Logo -->
+			<img src="../images/logo.JPG" alt="logo IoT" id="LogoImg">
+			<!-- Titredu Site Internet -->
+			<!-- <p>Bienvenue sur Algérie IoT</p> -->
+
+			<!-- Menu horizontal sous-menus déroulant verticalement-->
+			<nav id="menu">
+				<label for="menu-mobile" class="menu-mobile">Menu</label>
+				<input type="checkbox" id="menu-mobile" role="button">
+				<ul>
+					<!-- Menu de la page Acceuil -->
+					<li class="menuActif">
+						<a href="../index.html" title="Vers la page d'accueil du site" >Accueil</a>
+					</li>
+
+					<!-- Menu de la page IoT -->
+					<li class="menuActif"><a href="./iot.html" title="Vers la page  d'Iot" >l'IoT</a>
+						<ul class="sumenu">
+							<li>
+								<a href="./iot.html#definitionIOT">Qu'est ce que l'IoT</a>
+							</li>
+							<li>
+								<a href="./iot.html#histoireIOT">L'Histoire de sa création</a>
+							</li>
+						</ul>
+					</li>
+
+					<!-- Menu de la page Architecture -->
+					<li class="menuActif"><a href="./architecture.html" >Architecture </a>
+							<ul class="sumenu">
+								<li>
+									<a href="./architecture.html#composition">Composition</a>
+								</li>
+								<li>
+									<a href="./architecture.html#fonctions">Fonctions</a>
+								</li>
+								<li>
+									<a href="./architecture.html#capteurs">Capteurs</a>
+								</li>
+								<li>
+									<a href="./architecture.html#energie">Energie</a>
+								</li>
+								<li>
+									<a href="./architecture.html#actionneurs">Actionneurs</a>
+								</li>
+								<li>
+									<a href="./architecture.html#connectivite">Connectivité</a>
+								</li>
+
+							</ul>
+					</li>
+					<!-- Menu de la page Réseaux -->
+					<li class="menuActif"><a href="./reseaux.html" >Reseaux </a>
+						<ul class="sumenu">
+							<li>
+								<a href="./reseaux.html#les_reseaux">Les réseaux IoT</a>
+							</li>
+							<li>
+								<a href="./reseaux.html#choix_reseau">Comment choisir un réseau </a>
+							</li>
+							<li>
+								<a href="./reseaux.html#reseaux_personnel">Les réseaux personnels</a>
+							</li>
+							<li>
+								<a href="./reseaux.html#reseaux_batiment">Les réseaux du bâtiment</a>
+							</li>
+							<li>
+								<a href="./reseaux.html#reseaux_lpwan">Les réseaux LPWAN</a>
+							</li>
+						</ul>
+					</li>
+					<!-- Menu de la page Exemples -->
+					<li class="menuActif"><a href="./exemples.html" >Exemples</a>
+						<ul class="sumenu">
+							<li>
+								<a href="./exemples.html#securite">La sécurité</a>
+							</li>
+							<li>
+								<a href="./exemples.html#sante">La santé</a>
+							</li>
+							<li>
+								<a href="./exemples.html#transport_publics">Les transports publics</a>
+							</li>
+							<li>
+								<a href="./exemples.html#ville_intelligeantes">Les villes intelligentes</a>
+							</li>
+							<li>
+								<a href="./exemples.html#reseaux_electriques">Les réseaux électriques intelligents</a>
+							</li>
+						</ul>
+					</li>
+					<!-- Menu de la page Produits -->
+					<li class="menuActif"><a href="./produits.html" id="veryimportant"> Nos Produits</a>
+					<!-- Menu de la page contacts -->
+					<li class="menuActif"><a href="./contact.html" id="veryimportant"> Achats/Contacts</a>
+					
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Contenu de la Page Bibliographie -->
+		<main>
+			<section id="contenu">
+				<div class="contactdiv" id="footerrepeat">
+					<a href="https://www.facebook.com/soummam.iot" target="_blank"><img src="../images/facebookicon.jpg" alt="Facebook logo image" class="footerimage" ></a>
+					<a href="https://www.instagram.com/algerieiot" target="_blank"><img src="../images/instagramicon.jpg" alt="Instagram logo image" class="footerimage" ></a>
+					<a href="https://www.youtube.com/channel/UCnQG_MwArlHl5fyISjJENIw" target="_blank"><img src="../images/youtubeicon.png" alt="Instagram logo image" class="footerimage" ></a>
+					<a href="https://twitter.com/AlgerieIot" target="_blank"><img src="../images/twittericon.png" alt="Instagram logo image" class="footerimage" ></a>
+					<a href="https://www.linkedin.com/in/algérie-iot-141911209" target="_blank"><img src="../images/linkedinicon.png" alt="Instagram logo image" class="footerimage" ></a>
+					<ul>
+						<li><img src="../images/mailtoicon.png" alt="Instagram logo image" class="conactimage" > algerieiot@free.fr</li>
+						<li>☎️ Algérie: +213 (0)7 99 31 08 43</li>
+						<li>☎️ France: +33 (0)6 51 51 84 75</li>
+					</ul>
+				</div>
+				<div class="contactdiv">
+			
+					<form name="myForm" action="contact.php" onsubmit="return validateForm()" method="post" required>
+						Nom   <input type="text" name="cf_name" id="inputzone1"><br>
+						Mail  <input type="email" name="cf_email" id="inputzone1"><br>
+						Message <input type="submit" value="envoyer" class="messagesubmit"><br>
+						<textarea name="cf_message" id="inputzone2"></textarea><br>
+						
+					</form>
+		
+				</div>
+			</section>
+		</main>
+		<!-- Bas de page -->
+		<footer id="footer">
+			<nav class = "footernav">
+			<a href="https://www.facebook.com/soummam.iot" target="_blank"><img src="../images/facebookicon.jpg" alt="Facebook logo image" class="footerimage" ></a>
+			<a href="https://www.instagram.com/algerieiot" target="_blank"><img src="../images/instagramicon.jpg" alt="Instagram logo image" class="footerimage" ></a>
+			<a href="https://www.youtube.com/channel/UCnQG_MwArlHl5fyISjJENIw" target="_blank"><img src="../images/youtubeicon.png" alt="Instagram logo image" class="footerimage" ></a>
+			<a href="https://twitter.com/AlgerieIot" target="_blank"><img src="../images/twittericon.png" alt="Instagram logo image" class="footerimage" ></a>
+			<a href="https://www.linkedin.com/in/algérie-iot-141911209" target="_blank"><img src="../images/linkedinicon.png" alt="Instagram logo image" class="footerimage" ></a>
+
+			</nav>
+			<nav class = "footernav">
+				<!-- <a href="./contact.html" id="footercontactlink">Contact </a> -->
+					
+				<ul>
+					<li><img src="../images/mailtoicon.png" alt="Instagram logo image" class="conactimage" > algerieiot@free.fr</li>
+					<li>☎️ Algérie: +213 (0)7 93 80 05 85</li>
+					<li>☎️ France: +33 (0)6 51 51 84 75</li>
+				</ul>
+			</nav>
+			<nav class = "footernav">
+				<p class="copyright">&copy; Copyright 2021 - Algérie IoT - All Rights Reserved</p>
+			</nav>
+		</footer>
+	</body>
+</html>
