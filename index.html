@@ -51,7 +51,7 @@
 									<a href="#score">Partition</a>
 								</li>
 								<li>
-									<a href="#enregistrements-cours">cours Malek</a>
+									<a href="#records">cours Malek</a>
 								</li>
 <!-- 								<li>
 									<a href="./pages/architecture.html#energie">Energie</a>
@@ -132,25 +132,38 @@
 				<div id="insteadcarrousel">
 					<img src="./images/gps.jpeg" alt="carousel Image 01" />
 				</div> -->
-				<div class="row">	
-					<div class="block">
-						<h1>قم ترى دراهم اللَّو ز </h1>
-						<h2>Inqilab Moual</h2>
-						<!-- <p>Open a PDF file <a href="./lyrics/01-Koum-Tara-Lyrics.pdf">example</a>.</p> -->
-						<object id="lyricspdf" 
-							data="./lyrics/01-Koum-Tara-Lyrics.pdf" 
-							type="application/pdf"
-							width = "50%"
-							height = "600"
-						>
-						</object>
-					</div>
-					<div class="block">
-						<video controls autoplay>
-							<source src="./video/video-01-Malek-a-Bejaia.mkv" alt="carousel Image 01">
-						</video>	
-					</div>
+			<div class="row">	
+				<div class="block" id="lyrics">
+					<h1>قم ترى دراهم اللَّو ز </h1>
+					<h2>Inqilab Moual</h2>
+					<!-- <p>Open a PDF file <a href="./lyrics/01-Koum-Tara-Lyrics.pdf">example</a>.</p> -->
+					<object id="lyricspdf" 
+						data="./lyrics/01-Koum-Tara-Lyrics.pdf" 
+						type="application/pdf"
+						width = "50%"
+						height = "600"
+					>
+					</object>
 				</div>
+				<div class="block">
+					<video controls autoplay>
+						<source src="./video/video-01-Malek-a-Bejaia.mkv">
+					</video>	
+				</div>
+			</div>
+
+			<div id="score">
+				<h1> Partition </h1>
+				<video controls>
+						<source src="./video/01-moual/02-Inqilabats/01-qoum-tara/qoum-tara-pc-partition-play.mkv">
+					</video>	
+			</div>
+			<div id="records">
+				<h1> Cours de Malek </h1>
+				<p id="ongoing"> zone privée reservée uniquement aux elèves en cours de réalisation </P>
+				<img src="./images/ongoing.jpg" id="ongoingimage">
+			</div>
+
 		</main>
 
 		<!-- Bas de page -->
